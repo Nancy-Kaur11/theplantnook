@@ -29,6 +29,6 @@ const sendEmail = (recipientEmail, postalCode) => {
 };
 
 // Example usage
-const customerEmail = 'customer@example.com'; // Replace with the customer's email
+const customerEmail = recipientEmail; // Replace with the customer's email
 const customerPostalCode = '12345'; // Replace with the postal code from the order
 sendEmail(customerEmail, customerPostalCode);
